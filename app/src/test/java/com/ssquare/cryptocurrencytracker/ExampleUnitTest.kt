@@ -1,4 +1,4 @@
-package com.plcoding.cryptocurrencyappyt
+package com.ssquare.cryptocurrencytracker
 
 import org.junit.Test
 

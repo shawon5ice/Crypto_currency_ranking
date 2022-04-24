@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.plcoding.cryptocurrencyappyt">
+    package="com.ssquare.cryptocurrencytracker">
 
+    <uses-permission android:name="android.permission.INTERNET">
+    </uses-permission>
     <application
+        android:name="com.ssquare.cryptocurrencytracker.CoinApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CryptocurrencyAppYT">
+        android:theme="@style/Theme.CryptocurrencyApp">
         <activity
-            android:name=".MainActivity"
+            android:name="com.ssquare.cryptocurrencytracker.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.CryptocurrencyAppYT.NoActionBar">
+            android:theme="@style/Theme.CryptocurrencyApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -5,9 +5,9 @@ User can see all kind of crypto currency rank wise.
 By clicking one from the list user will able to see description, related tags and team members in that crypto.
 
 # Technology Used:
-##### JetPack Compose
-##### Retrofit
-##### Hilt
+#### JetPack Compose
+#### Retrofit
+#### Hilt
 
 # Followed Clean Architecture 
   ***MVVM approach with Use case scenario 
